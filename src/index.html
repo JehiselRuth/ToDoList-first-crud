@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDoList First CRUD</title>
+    <link rel="stylesheet" href="./src/styles.css">
+  </head>
+  <body>
+    <header>
+
+      <div class="header__titulo">
+          <h1>Lista de tareas</h1>
+      </div>
+
+      <section class="header__datos">
+          <p class="datos__total">Total tareas: 0  </p>
+          <p class="datos__completadas"> Tareas Completadas: 0</p>
+      </section>
+  </header>
+  <main>
+      <div class="contenedor">
+          <form class="formulario" id="formulario">
+              <h4>Formulario</h4>
+              <input type="text" id="tarea">
+              <input type="submit" value="ADD ">
+          </form>
+          <div class="tareas" id="tareas">
+              
+              <h5>NO HAS AGREGADO NINGUNA TAREA</h5>
+          </div>
+      </div>
+  </main>
+    <script type="module" src="/js/app.js"></script>
+  </body>
+  <footer> &copy;Copyright</footer>
+</html>
